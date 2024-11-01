@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet"  href="style.css">
+</head>
+<style>
+    .flash{
+        background-color: azure;
+    }
+</style>
+<body class="flex items-center justify-center flex-col gap-y-3 p-2">
+    <h1 class="text-center text-3xl font-semibold">Simon Game</h1>
+    <h1 class=" levels text-2xl font-sans">press any key to start the Game</h1>
+    <div class="container  h-80vh w-5/12 ">
+        <div class="line1 w-full h-50% flex flex-row items-center justify-center gap-4 ">
+            <div class="box1 bg-red-800 w-56 h-56 rounded-3xl border-solid border-black border-8"></div>
+            <div class="box2 bg-blue-950 w-56 h-56 rounded-3xl border-solid border-black border-8"></div>
+
+        </div>
+        <div class="line1  m-0 w-full h-50% flex flex-row items-center justify-center gap-4 ">
+            <div class="box3 bg-green-900 w-56 h-56 rounded-3xl border-solid border-black border-8 mb-16"></div>
+            <div class="box4 bg-orange-400 w-56 h-56 rounded-3xl border-solid border-black border-8 mb-16"></div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
